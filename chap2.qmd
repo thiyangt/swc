@@ -73,3 +73,17 @@ Access your documents from any device with an internet connection. Since it's we
 ## Text formatting
 
 ![](images/10.png)
+
+## Working with images
+
+1. Upload an image
+
+![](images/11.png)
+
+2. Insert an image to the document
+
+![](images/12.png)
+
+## Mathematical Equations
+
+![](images/13.png)

@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Swc",
+    "title": "Scientific Writing and Communication",
     "section": "",
     "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
   },
@@ -49,17 +49,31 @@
     "text": "2.5 Create a new project\n\nCreate a new project -> Blank Project\n\n\n\nGive a name to your project\n\n ## Your first overleaf document\n\nTemplate\n\n\n\nCompile"
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "3  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever."
-  },
-  {
     "objectID": "chap2.html#text-formatting",
     "href": "chap2.html#text-formatting",
     "title": "2  Writing/ Collaborative Writing Platforms",
     "section": "2.6 Text formatting",
     "text": "2.6 Text formatting"
+  },
+  {
+    "objectID": "chap2.html#working-with-images",
+    "href": "chap2.html#working-with-images",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.7 Working with images",
+    "text": "2.7 Working with images\n\nUpload an image\n\n\n\nInsert an image to the document"
+  },
+  {
+    "objectID": "chap2.html#mathematical-equations",
+    "href": "chap2.html#mathematical-equations",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.8 Mathematical Equations",
+    "text": "2.8 Mathematical Equations"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
   }
 ]

@@ -1,0 +1,30 @@
+# Reproducible reporting with Quarto and Jupyter Notebook
+
+
+## Install Quarto
+
+1. Installation guide: https://quarto.org/docs/get-started/
+
+## Jupyter notebook
+
+![](images/14.png)
+
+![](images/15.png)
+
+## Obtain quarto preview
+
+On terminal type
+
+```
+quarto preview Report1.ipynb
+```
+
+
+
+Then, you will get the following output file
+
+![](images/16.png)
+
+Click on code to view the codes
+
+![](images/17.png)

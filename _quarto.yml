@@ -11,6 +11,7 @@ book:
     - intro.qmd
     - chap2.qmd
     - chap3.qmd
+    - chap4.qmd
     - summary.qmd
     - references.qmd
 

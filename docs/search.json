@@ -68,5 +68,33 @@
     "title": "3  Data Visualisation with Grammar of Graphics",
     "section": "3.9 Histogram of flipper length by species with dark theme",
     "text": "3.9 Histogram of flipper length by species with dark theme\n\nhistogram_species_dark = (\n    ggplot(penguins, aes(x='flipper_length_mm', fill='species')) +\n    geom_histogram(binwidth=5, color='black', alpha=0.7) +\n    facet_wrap('~species', scales='free_y') +\n    ggtitle('Histogram of Flipper Length by Species\\nDistribution of flipper length for different penguin species') +\n    labs(\n        x='Flipper Length (mm)',  # X-axis title\n        y='Frequency',            # Y-axis title\n        caption='Source: Palmer Penguins Dataset',\n    ) +\n    theme_dark()  # Apply dark theme\n)\nprint(histogram_species_dark)\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/layer.py:333: PlotnineWarning: stat_bin : Removed 2 rows containing non-finite values.\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/facets/facet.py:440: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Scientific Writing and Communication",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "chap4.html#install-quarto",
+    "href": "chap4.html#install-quarto",
+    "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
+    "section": "4.1 Install Quarto",
+    "text": "4.1 Install Quarto\n\nInstallation guide: https://quarto.org/docs/get-started/"
+  },
+  {
+    "objectID": "chap4.html#jupyter-notebook",
+    "href": "chap4.html#jupyter-notebook",
+    "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
+    "section": "4.2 Jupyter notebook",
+    "text": "4.2 Jupyter notebook"
+  },
+  {
+    "objectID": "chap4.html#obtain-quarto-preview",
+    "href": "chap4.html#obtain-quarto-preview",
+    "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
+    "section": "4.3 Obtain quarto preview",
+    "text": "4.3 Obtain quarto preview\nOn terminal type\nquarto preview Report1.ipynb\nThen, you will get the following output file\n\nClick on code to view the codes"
   }
 ]

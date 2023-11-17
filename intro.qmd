@@ -1,0 +1,50 @@
+# Introduction
+
+This book introduces essential open-source tools for mastering the art of scientific writing.
+
+1. Writing/ Collaborative Writing Platforms
+
+    - Overleaf: An online LaTeX editor for collaborative writing and publishing.
+
+2. Computing
+
+    - R
+
+    - Python
+
+3. Data visualization
+
+    - R: ggplot2
+  
+    - Python: plotnine
+  
+4. Reproducible Research
+
+    - R and Python both: Quarto
+  
+    - Python: Jupyter Notebooks
+  
+    - R: RMarkdown, knitr
+  
+5. Paper Management
+
+    - Zotero
+ 
+    - Mendeley
+  
+6. Open Access Journals/ Research papers
+
+    - Directory of Open Access Journals (DOAJ): A community-curated online directory that indexes and provides access to high-quality, open access, peer-reviewed journals.
+
+7. Research Collaboration and Networking
+
+    - ResearchGate
+  
+    - Academia.edu
+  
+8. Version control
+
+    - Github
+
+
+

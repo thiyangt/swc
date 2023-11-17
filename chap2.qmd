@@ -1,0 +1,75 @@
+# Writing/ Collaborative Writing Platforms
+
+## What is Overleaf?
+
+Overleaf is an online LaTeX editor that allows users to create, edit, and collaborate on LaTeX documents in a web-based environment.
+
+## LaTeX Documents
+
+LaTeX is a typesetting system commonly used for the production of scientific and mathematical documents due to its robust handling of complex formatting.
+
+## Advantages of Overleaf
+
+**1. Real-Time Collaboration**
+
+Multiple users can work on a document simultaneously, with changes visible in real-time.
+
+**2. Templates**
+
+Overleaf provides a variety of templates for different document types such as thesis, posters, presentations, etc., making it easier to get started.
+
+**3. Version Control** 
+
+Integrated version control system tracks changes and allows users to revert to previous versions.
+
+**4. Rich Text Editing** 
+
+Combines the power of LaTeX with a user-friendly rich text editor for easy formatting.
+
+**5. Accessibility**
+
+Access your documents from any device with an internet connection. Since it's web-based, there's no need to install LaTeX on your computer.
+
+## Setting up an Overleaf Account
+
+1. Go to [https://www.overleaf.com/](https://www.overleaf.com/).
+
+![](images/1.png)
+
+2. Click on Register
+
+![](images/2.png)
+
+3. Register Overleaf by entering your details. I registered using my email.
+
+![](images/3.png)
+
+4. Skip "Try Premium for free"
+
+![](images/4.png)
+
+![](images/5.png)
+
+## Create a new project
+
+1. Create a new project -> Blank Project
+
+![](images/6.png)
+
+2. Give a name to your project
+
+![](images/7.png)
+## Your first overleaf document
+
+1. Template
+
+![](images/8.png)
+
+
+2. Compile
+
+![](images/9.png)
+
+## Text formatting
+
+![](images/10.png)

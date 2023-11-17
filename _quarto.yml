@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Scientific Writing and Communication"
+  author: "Thiyanga S. Talagala"
+  date: ""
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - chap2.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+jupyter: python3
+
+

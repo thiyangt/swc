@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Swc",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This book introduces essential open-source tools for mastering the art of scientific writing.\n\nWriting/ Collaborative Writing Platforms\n\nOverleaf: An online LaTeX editor for collaborative writing and publishing.\n\nComputing\n\nR\nPython\n\nData visualization\n\nR: ggplot2\nPython: plotnine\n\nReproducible Research\n\nR and Python both: Quarto\nPython: Jupyter Notebooks\nR: RMarkdown, knitr\n\nPaper Management\n\nZotero\nMendeley\n\nOpen Access Journals/ Research papers\n\nDirectory of Open Access Journals (DOAJ): A community-curated online directory that indexes and provides access to high-quality, open access, peer-reviewed journals.\n\nResearch Collaboration and Networking\n\nResearchGate\nAcademia.edu\n\nVersion control\n\nGithub"
+  },
+  {
+    "objectID": "chap2.html#what-is-overleaf",
+    "href": "chap2.html#what-is-overleaf",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.1 What is Overleaf?",
+    "text": "2.1 What is Overleaf?\nOverleaf is an online LaTeX editor that allows users to create, edit, and collaborate on LaTeX documents in a web-based environment."
+  },
+  {
+    "objectID": "chap2.html#latex-documents",
+    "href": "chap2.html#latex-documents",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.2 LaTeX Documents",
+    "text": "2.2 LaTeX Documents\nLaTeX is a typesetting system commonly used for the production of scientific and mathematical documents due to its robust handling of complex formatting."
+  },
+  {
+    "objectID": "chap2.html#advantages-of-overleaf",
+    "href": "chap2.html#advantages-of-overleaf",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.3 Advantages of Overleaf",
+    "text": "2.3 Advantages of Overleaf\n1. Real-Time Collaboration\nMultiple users can work on a document simultaneously, with changes visible in real-time.\n2. Templates\nOverleaf provides a variety of templates for different document types such as thesis, posters, presentations, etc., making it easier to get started.\n3. Version Control\nIntegrated version control system tracks changes and allows users to revert to previous versions.\n4. Rich Text Editing\nCombines the power of LaTeX with a user-friendly rich text editor for easy formatting.\n5. Accessibility\nAccess your documents from any device with an internet connection. Since it’s web-based, there’s no need to install LaTeX on your computer."
+  },
+  {
+    "objectID": "chap2.html#setting-up-an-overleaf-account",
+    "href": "chap2.html#setting-up-an-overleaf-account",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.4 Setting up an Overleaf Account",
+    "text": "2.4 Setting up an Overleaf Account\n\nGo to https://www.overleaf.com/.\n\n\n\nClick on Register\n\n\n\nRegister Overleaf by entering your details. I registered using my email.\n\n\n\nSkip “Try Premium for free”"
+  },
+  {
+    "objectID": "chap2.html#create-a-new-project",
+    "href": "chap2.html#create-a-new-project",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.5 Create a new project",
+    "text": "2.5 Create a new project\n\nCreate a new project -> Blank Project\n\n\n\nGive a name to your project\n\n ## Your first overleaf document\n\nTemplate\n\n\n\nCompile"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "chap2.html#text-formatting",
+    "href": "chap2.html#text-formatting",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.6 Text formatting",
+    "text": "2.6 Text formatting"
+  }
+]

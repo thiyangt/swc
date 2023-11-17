@@ -1,0 +1,200 @@
+# Data Visualisation with Grammar of Graphics
+
+
+1. Open jupyter notebook from the command line:
+
+```
+jupyter notebook
+
+```
+
+Opening a specific notebook
+
+```
+jupyter notebook notebook.ipynb 
+
+```
+
+
+2. Install following packages
+
+```{python}
+#import sys
+
+#!{sys.executable} -m pip install pandas
+
+#!{sys.executable} -m pip install palmerpenguins
+
+#!{sys.executable} -m pip install plotnine
+```
+
+3. Load packages
+
+```{python}
+import pandas as pd
+import plotnine as p9
+from palmerpenguins import load_penguins
+from plotnine import *
+```
+
+
+4. Explore data
+
+```{python}
+penguins = load_penguins()
+penguins.head()
+```
+
+Data information
+
+```{python}
+penguins.info()
+```
+
+Descriptive statistics
+
+```{python}
+penguins.describe()
+```
+
+## Data visualisation with plotnine
+
+1. Scatter plot
+
+```{python}
+scatter_plot = (
+    ggplot(penguins, aes(x='flipper_length_mm', y='body_mass_g', color='species')) +
+    geom_point() +
+    labs(title='Flipper Length vs Body Mass')
+)
+print(scatter_plot)
+
+```
+
+```{python}
+scatter_plot = (
+    ggplot(penguins, aes(x='flipper_length_mm', y='body_mass_g', color='species')) +
+    geom_point() +
+    geom_smooth(method='auto', se=False) +  # Add a smooth line without confidence interval
+    labs(title='Flipper Length vs Body Mass with Smooth Line')
+)
+print(scatter_plot)
+
+```
+
+## Box plot of flipper length for each species
+
+```{python}
+box_plot = (
+    ggplot(penguins, aes(x='species', y='flipper_length_mm')) +
+    geom_boxplot() +
+    labs(title='Flipper Length by Species')
+)
+print(box_plot)
+```
+
+## Bar chart of species counts
+
+```{python}
+bar_chart = (
+    ggplot(penguins, aes(x='species')) +
+    geom_bar() +
+    labs(title='Bar Chart of Species Counts')
+)
+print(bar_chart)
+```
+
+## Histogram
+
+```{python}
+histogram_flipper = (
+    ggplot(penguins, aes(x='flipper_length_mm')) +
+    geom_histogram(binwidth=5, fill='skyblue', color='black', alpha=0.7) +
+    labs(title='Histogram of Flipper Length')
+)
+print(histogram_flipper)
+
+```
+
+## Histogram of flipper length by species
+
+```{python}
+histogram_species = (
+    ggplot(penguins, aes(x='flipper_length_mm', fill='species')) +
+    geom_histogram(binwidth=5, color='black', alpha=0.7) +
+    facet_wrap('~species', scales='free_y') +
+    labs(title='Histogram of Flipper Length by Species')
+)
+print(histogram_species)
+```
+
+## Density plot
+
+```{python}
+density_plot_flipper = (
+    ggplot(penguins, aes(x='flipper_length_mm')) +
+    geom_density(fill='skyblue', color='black', alpha=0.7) +
+    labs(title='Density Plot of Flipper Length')
+)
+print(density_plot_flipper)
+```
+
+
+## Histogram of flipper length by species with additional customization
+
+```{python}
+histogram_species_custom1 = (
+    ggplot(penguins, aes(x='flipper_length_mm', fill='species')) +
+    geom_histogram(binwidth=5, color='black', alpha=0.7) +
+    facet_wrap('~species', scales='free_y') +
+    labs(
+        title='Histogram of Flipper Length by Species',
+        x='Flipper Length (mm)',  # X-axis title
+        y='Frequency',            # Y-axis title
+        caption='Source: Palmer Penguins Dataset',
+    ) )
+print(histogram_species_custom1)
+```
+
+## Change themes
+
+```{python}
+histogram_species_custom2 = (
+    ggplot(penguins, aes(x='flipper_length_mm', fill='species')) +
+    geom_histogram(binwidth=5, color='black', alpha=0.7) +
+    facet_wrap('~species', scales='free_y') +
+    labs(
+        title='Histogram of Flipper Length by Species',
+        x='Flipper Length (mm)',  # X-axis title
+        y='Frequency',            # Y-axis title
+        caption='Source: Palmer Penguins Dataset'
+    ) +
+    theme(
+        axis_text_x=element_text(angle=45, ha='right'),  # Rotate x-axis labels for better readability
+        axis_ticks_major_x=element_blank(),  # Hide major x-axis ticks
+        axis_ticks_minor_x=element_blank(),  # Hide minor x-axis ticks
+        panel_grid_major_x=element_blank(),  # Hide major x-grid lines
+        panel_grid_minor_x=element_blank(),  # Hide minor x-grid lines
+    )
+)
+print(histogram_species_custom2)
+
+```
+
+## Histogram of flipper length by species with dark theme
+
+```{python}
+histogram_species_dark = (
+    ggplot(penguins, aes(x='flipper_length_mm', fill='species')) +
+    geom_histogram(binwidth=5, color='black', alpha=0.7) +
+    facet_wrap('~species', scales='free_y') +
+    ggtitle('Histogram of Flipper Length by Species\nDistribution of flipper length for different penguin species') +
+    labs(
+        x='Flipper Length (mm)',  # X-axis title
+        y='Frequency',            # Y-axis title
+        caption='Source: Palmer Penguins Dataset',
+    ) +
+    theme_dark()  # Apply dark theme
+)
+print(histogram_species_dark)
+```

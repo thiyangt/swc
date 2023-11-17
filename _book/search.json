@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "chap3.html#data-visualisation-with-plotnine",
+    "href": "chap3.html#data-visualisation-with-plotnine",
+    "title": "3  Data Visualisation with Grammar of Graphics",
+    "section": "3.1 Data visualisation with plotnine",
+    "text": "3.1 Data visualisation with plotnine\n\nScatter plot\n\n\nscatter_plot = (\n    ggplot(penguins, aes(x='flipper_length_mm', y='body_mass_g', color='species')) +\n    geom_point() +\n    labs(title='Flipper Length vs Body Mass')\n)\nprint(scatter_plot)\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/layer.py:411: PlotnineWarning: geom_point : Removed 2 rows containing missing values.\n\n\n\n\n\n\n\n\n\nscatter_plot = (\n    ggplot(penguins, aes(x='flipper_length_mm', y='body_mass_g', color='species')) +\n    geom_point() +\n    geom_smooth(method='auto', se=False) +  # Add a smooth line without confidence interval\n    labs(title='Flipper Length vs Body Mass with Smooth Line')\n)\nprint(scatter_plot)\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/layer.py:411: PlotnineWarning: geom_point : Removed 2 rows containing missing values."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "4  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "chap3.html#box-plot-of-flipper-length-for-each-species",
+    "href": "chap3.html#box-plot-of-flipper-length-for-each-species",
+    "title": "3  Data Visualisation with Grammar of Graphics",
+    "section": "3.2 Box plot of flipper length for each species",
+    "text": "3.2 Box plot of flipper length for each species\n\nbox_plot = (\n    ggplot(penguins, aes(x='species', y='flipper_length_mm')) +\n    geom_boxplot() +\n    labs(title='Flipper Length by Species')\n)\nprint(box_plot)\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/layer.py:333: PlotnineWarning: stat_boxplot : Removed 2 rows containing non-finite values."
+  },
+  {
+    "objectID": "chap3.html",
+    "href": "chap3.html",
+    "title": "3  Data Visualisation with Grammar of Graphics",
+    "section": "",
+    "text": "4 Pairplot for multiple variables"
+  },
+  {
+    "objectID": "chap3.html#bar-chart-of-species-counts",
+    "href": "chap3.html#bar-chart-of-species-counts",
+    "title": "3  Data Visualisation with Grammar of Graphics",
+    "section": "3.3 Bar chart of species counts",
+    "text": "3.3 Bar chart of species counts\n\nbar_chart = (\n    ggplot(penguins, aes(x='species')) +\n    geom_bar() +\n    labs(title='Bar Chart of Species Counts')\n)\nprint(bar_chart)"
+  },
+  {
+    "objectID": "chap3.html#histogram",
+    "href": "chap3.html#histogram",
+    "title": "3  Data Visualisation with Grammar of Graphics",
+    "section": "3.4 Histogram",
+    "text": "3.4 Histogram\n\nhistogram_flipper = (\n    ggplot(penguins, aes(x='flipper_length_mm')) +\n    geom_histogram(binwidth=5, fill='skyblue', color='black', alpha=0.7) +\n    labs(title='Histogram of Flipper Length')\n)\nprint(histogram_flipper)\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/layer.py:333: PlotnineWarning: stat_bin : Removed 2 rows containing non-finite values."
+  },
+  {
+    "objectID": "chap3.html#density-plot",
+    "href": "chap3.html#density-plot",
+    "title": "3  Data Visualisation with Grammar of Graphics",
+    "section": "3.6 Density plot",
+    "text": "3.6 Density plot\n\ndensity_plot_flipper = (\n    ggplot(penguins, aes(x='flipper_length_mm')) +\n    geom_density(fill='skyblue', color='black', alpha=0.7) +\n    labs(title='Density Plot of Flipper Length')\n)\nprint(density_plot_flipper)\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/layer.py:333: PlotnineWarning: stat_density : Removed 2 rows containing non-finite values."
+  },
+  {
+    "objectID": "chap3.html#histogram-of-flipper-length-by-species",
+    "href": "chap3.html#histogram-of-flipper-length-by-species",
+    "title": "3  Data Visualisation with Grammar of Graphics",
+    "section": "3.5 Histogram of flipper length by species",
+    "text": "3.5 Histogram of flipper length by species\n\nhistogram_species = (\n    ggplot(penguins, aes(x='flipper_length_mm', fill='species')) +\n    geom_histogram(binwidth=5, color='black', alpha=0.7) +\n    facet_wrap('~species', scales='free_y') +\n    labs(title='Histogram of Flipper Length by Species')\n)\nprint(histogram_species)\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/layer.py:333: PlotnineWarning: stat_bin : Removed 2 rows containing non-finite values.\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/facets/facet.py:440: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'."
+  },
+  {
+    "objectID": "chap3.html#histogram-of-flipper-length-by-species-with-additional-customization",
+    "href": "chap3.html#histogram-of-flipper-length-by-species-with-additional-customization",
+    "title": "3  Data Visualisation with Grammar of Graphics",
+    "section": "3.7 Histogram of flipper length by species with additional customization",
+    "text": "3.7 Histogram of flipper length by species with additional customization\n\nhistogram_species_custom1 = (\n    ggplot(penguins, aes(x='flipper_length_mm', fill='species')) +\n    geom_histogram(binwidth=5, color='black', alpha=0.7) +\n    facet_wrap('~species', scales='free_y') +\n    labs(\n        title='Histogram of Flipper Length by Species',\n        x='Flipper Length (mm)',  # X-axis title\n        y='Frequency',            # Y-axis title\n        caption='Source: Palmer Penguins Dataset',\n    ) )\nprint(histogram_species_custom1)\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/layer.py:333: PlotnineWarning: stat_bin : Removed 2 rows containing non-finite values.\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/facets/facet.py:440: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'."
+  },
+  {
+    "objectID": "chap3.html#change-themes",
+    "href": "chap3.html#change-themes",
+    "title": "3  Data Visualisation with Grammar of Graphics",
+    "section": "3.8 Change themes",
+    "text": "3.8 Change themes\n\nhistogram_species_custom2 = (\n    ggplot(penguins, aes(x='flipper_length_mm', fill='species')) +\n    geom_histogram(binwidth=5, color='black', alpha=0.7) +\n    facet_wrap('~species', scales='free_y') +\n    labs(\n        title='Histogram of Flipper Length by Species',\n        x='Flipper Length (mm)',  # X-axis title\n        y='Frequency',            # Y-axis title\n        caption='Source: Palmer Penguins Dataset'\n    ) +\n    theme(\n        axis_text_x=element_text(angle=45, ha='right'),  # Rotate x-axis labels for better readability\n        axis_ticks_major_x=element_blank(),  # Hide major x-axis ticks\n        axis_ticks_minor_x=element_blank(),  # Hide minor x-axis ticks\n        panel_grid_major_x=element_blank(),  # Hide major x-grid lines\n        panel_grid_minor_x=element_blank(),  # Hide minor x-grid lines\n    )\n)\nprint(histogram_species_custom2)\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/layer.py:333: PlotnineWarning: stat_bin : Removed 2 rows containing non-finite values.\n\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/facets/facet.py:440: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Scientific Writing and Communication",
@@ -7,73 +77,10 @@
     "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This book introduces essential open-source tools for mastering the art of scientific writing.\n\nWriting/ Collaborative Writing Platforms\n\nOverleaf: An online LaTeX editor for collaborative writing and publishing.\n\nComputing\n\nR\nPython\n\nData visualization\n\nR: ggplot2\nPython: plotnine\n\nReproducible Research\n\nR and Python both: Quarto\nPython: Jupyter Notebooks\nR: RMarkdown, knitr\n\nPaper Management\n\nZotero\nMendeley\n\nOpen Access Journals/ Research papers\n\nDirectory of Open Access Journals (DOAJ): A community-curated online directory that indexes and provides access to high-quality, open access, peer-reviewed journals.\n\nResearch Collaboration and Networking\n\nResearchGate\nAcademia.edu\n\nVersion control\n\nGithub"
-  },
-  {
-    "objectID": "chap2.html#what-is-overleaf",
-    "href": "chap2.html#what-is-overleaf",
-    "title": "2  Writing/ Collaborative Writing Platforms",
-    "section": "2.1 What is Overleaf?",
-    "text": "2.1 What is Overleaf?\nOverleaf is an online LaTeX editor that allows users to create, edit, and collaborate on LaTeX documents in a web-based environment."
-  },
-  {
-    "objectID": "chap2.html#latex-documents",
-    "href": "chap2.html#latex-documents",
-    "title": "2  Writing/ Collaborative Writing Platforms",
-    "section": "2.2 LaTeX Documents",
-    "text": "2.2 LaTeX Documents\nLaTeX is a typesetting system commonly used for the production of scientific and mathematical documents due to its robust handling of complex formatting."
-  },
-  {
-    "objectID": "chap2.html#advantages-of-overleaf",
-    "href": "chap2.html#advantages-of-overleaf",
-    "title": "2  Writing/ Collaborative Writing Platforms",
-    "section": "2.3 Advantages of Overleaf",
-    "text": "2.3 Advantages of Overleaf\n1. Real-Time Collaboration\nMultiple users can work on a document simultaneously, with changes visible in real-time.\n2. Templates\nOverleaf provides a variety of templates for different document types such as thesis, posters, presentations, etc., making it easier to get started.\n3. Version Control\nIntegrated version control system tracks changes and allows users to revert to previous versions.\n4. Rich Text Editing\nCombines the power of LaTeX with a user-friendly rich text editor for easy formatting.\n5. Accessibility\nAccess your documents from any device with an internet connection. Since it’s web-based, there’s no need to install LaTeX on your computer."
-  },
-  {
-    "objectID": "chap2.html#setting-up-an-overleaf-account",
-    "href": "chap2.html#setting-up-an-overleaf-account",
-    "title": "2  Writing/ Collaborative Writing Platforms",
-    "section": "2.4 Setting up an Overleaf Account",
-    "text": "2.4 Setting up an Overleaf Account\n\nGo to https://www.overleaf.com/.\n\n\n\nClick on Register\n\n\n\nRegister Overleaf by entering your details. I registered using my email.\n\n\n\nSkip “Try Premium for free”"
-  },
-  {
-    "objectID": "chap2.html#create-a-new-project",
-    "href": "chap2.html#create-a-new-project",
-    "title": "2  Writing/ Collaborative Writing Platforms",
-    "section": "2.5 Create a new project",
-    "text": "2.5 Create a new project\n\nCreate a new project -> Blank Project\n\n\n\nGive a name to your project\n\n ## Your first overleaf document\n\nTemplate\n\n\n\nCompile"
-  },
-  {
-    "objectID": "chap2.html#text-formatting",
-    "href": "chap2.html#text-formatting",
-    "title": "2  Writing/ Collaborative Writing Platforms",
-    "section": "2.6 Text formatting",
-    "text": "2.6 Text formatting"
-  },
-  {
-    "objectID": "chap2.html#working-with-images",
-    "href": "chap2.html#working-with-images",
-    "title": "2  Writing/ Collaborative Writing Platforms",
-    "section": "2.7 Working with images",
-    "text": "2.7 Working with images\n\nUpload an image\n\n\n\nInsert an image to the document"
-  },
-  {
-    "objectID": "chap2.html#mathematical-equations",
-    "href": "chap2.html#mathematical-equations",
-    "title": "2  Writing/ Collaborative Writing Platforms",
-    "section": "2.8 Mathematical Equations",
-    "text": "2.8 Mathematical Equations"
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "3  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever."
+    "objectID": "chap3.html#histogram-of-flipper-length-by-species-with-dark-theme",
+    "href": "chap3.html#histogram-of-flipper-length-by-species-with-dark-theme",
+    "title": "3  Data Visualisation with Grammar of Graphics",
+    "section": "3.9 Histogram of flipper length by species with dark theme",
+    "text": "3.9 Histogram of flipper length by species with dark theme\n\nhistogram_species_dark = (\n    ggplot(penguins, aes(x='flipper_length_mm', fill='species')) +\n    geom_histogram(binwidth=5, color='black', alpha=0.7) +\n    facet_wrap('~species', scales='free_y') +\n    ggtitle('Histogram of Flipper Length by Species\\nDistribution of flipper length for different penguin species') +\n    labs(\n        x='Flipper Length (mm)',  # X-axis title\n        y='Frequency',            # Y-axis title\n        caption='Source: Palmer Penguins Dataset',\n    ) +\n    theme_dark()  # Apply dark theme\n)\nprint(histogram_species_dark)\n\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/layer.py:333: PlotnineWarning: stat_bin : Removed 2 rows containing non-finite values.\n/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/plotnine/facets/facet.py:440: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'."
   }
 ]

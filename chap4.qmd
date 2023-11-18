@@ -33,6 +33,8 @@ Click on code to view the codes
 
 ![](images/18.png)
 
+When you run `quarto preview Report1.ipynb` on the terminal you will get following output.
+
 ![](images/19.png)
 
 ## Document-level options

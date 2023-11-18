@@ -102,7 +102,7 @@
     "href": "chap4.html#code-level-options",
     "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
     "section": "4.4 Code-level options",
-    "text": "4.4 Code-level options"
+    "text": "4.4 Code-level options\n\nWhen you run quarto preview Report1.ipynb on the terminal you will get following output."
   },
   {
     "objectID": "chap4.html#document-level-options",
@@ -180,5 +180,12 @@
     "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
     "section": "4.6 Rendering",
     "text": "4.6 Rendering\nMac/Linux\npython3 -m pip install jupyter jupyterlab\npython3 -m pip install matplotlib plotly\npython3 -m jupyter lab Report1.ipynb\nWindows\npy -m pip install jupyter jupyterlab\npy -m pip install matplotlib plotly\npy -m jupyter lab Report1.ipynb\nMore information: https://quarto.org/docs/get-started/hello/jupyter.html"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This book introduces essential open-source tools for mastering the art of scientific writing.\n\nWriting/ Collaborative Writing Platforms\n\nOverleaf: An online LaTeX editor for collaborative writing and publishing.\n\nComputing\n\nR\nPython\n\nData visualization\n\nR: ggplot2\nPython: plotnine\n\nReproducible Research\n\nR and Python both: Quarto\nPython: Jupyter Notebooks\nR: RMarkdown, knitr\n\nPaper Management\n\nZotero\nMendeley\n\nOpen Access Journals/ Research papers\n\nDirectory of Open Access Journals (DOAJ): A community-curated online directory that indexes and provides access to high-quality, open access, peer-reviewed journals.\n\nResearch Collaboration and Networking\n\nResearchGate\nAcademia.edu\n\nVersion control\n\nGithub"
   }
 ]

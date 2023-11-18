@@ -28,3 +28,21 @@ Then, you will get the following output file
 Click on code to view the codes
 
 ![](images/17.png)
+
+## Code-level options
+
+![](images/18.png)
+
+![](images/19.png)
+
+## Document-level options
+
+![](images/21.png)
+
+When you run `quarto preview Report1.ipynb`, you will get
+
+![](images/20.png)
+
+## Reading
+
+1. [https://quarto.org/docs/computations/execution-options.html](https://quarto.org/docs/computations/execution-options.html)

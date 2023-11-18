@@ -96,5 +96,82 @@
     "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
     "section": "4.3 Obtain quarto preview",
     "text": "4.3 Obtain quarto preview\nOn terminal type\nquarto preview Report1.ipynb\nThen, you will get the following output file\n\nClick on code to view the codes"
+  },
+  {
+    "objectID": "chap4.html#code-level-options",
+    "href": "chap4.html#code-level-options",
+    "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
+    "section": "4.4 Code-level options",
+    "text": "4.4 Code-level options"
+  },
+  {
+    "objectID": "chap4.html#document-level-options",
+    "href": "chap4.html#document-level-options",
+    "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
+    "section": "4.5 Document-level options",
+    "text": "4.5 Document-level options\n\nWhen you run quarto preview Report1.ipynb, you will get"
+  },
+  {
+    "objectID": "chap4.html#reading",
+    "href": "chap4.html#reading",
+    "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
+    "section": "4.6 Reading",
+    "text": "4.6 Reading\n\nhttps://quarto.org/docs/computations/execution-options.html"
+  },
+  {
+    "objectID": "chap2.html#what-is-overleaf",
+    "href": "chap2.html#what-is-overleaf",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.1 What is Overleaf?",
+    "text": "2.1 What is Overleaf?\nOverleaf is an online LaTeX editor that allows users to create, edit, and collaborate on LaTeX documents in a web-based environment."
+  },
+  {
+    "objectID": "chap2.html#latex-documents",
+    "href": "chap2.html#latex-documents",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.2 LaTeX Documents",
+    "text": "2.2 LaTeX Documents\nLaTeX is a typesetting system commonly used for the production of scientific and mathematical documents due to its robust handling of complex formatting."
+  },
+  {
+    "objectID": "chap2.html#advantages-of-overleaf",
+    "href": "chap2.html#advantages-of-overleaf",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.3 Advantages of Overleaf",
+    "text": "2.3 Advantages of Overleaf\n1. Real-Time Collaboration\nMultiple users can work on a document simultaneously, with changes visible in real-time.\n2. Templates\nOverleaf provides a variety of templates for different document types such as thesis, posters, presentations, etc., making it easier to get started.\n3. Version Control\nIntegrated version control system tracks changes and allows users to revert to previous versions.\n4. Rich Text Editing\nCombines the power of LaTeX with a user-friendly rich text editor for easy formatting.\n5. Accessibility\nAccess your documents from any device with an internet connection. Since it’s web-based, there’s no need to install LaTeX on your computer."
+  },
+  {
+    "objectID": "chap2.html#setting-up-an-overleaf-account",
+    "href": "chap2.html#setting-up-an-overleaf-account",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.4 Setting up an Overleaf Account",
+    "text": "2.4 Setting up an Overleaf Account\n\nGo to https://www.overleaf.com/.\n\n\n\nClick on Register\n\n\n\nRegister Overleaf by entering your details. I registered using my email.\n\n\n\nSkip “Try Premium for free”"
+  },
+  {
+    "objectID": "chap2.html#create-a-new-project",
+    "href": "chap2.html#create-a-new-project",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.5 Create a new project",
+    "text": "2.5 Create a new project\n\nCreate a new project -> Blank Project\n\n\n\nGive a name to your project\n\n ## Your first overleaf document\n\nTemplate\n\n\n\nCompile"
+  },
+  {
+    "objectID": "chap2.html#text-formatting",
+    "href": "chap2.html#text-formatting",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.6 Text formatting",
+    "text": "2.6 Text formatting"
+  },
+  {
+    "objectID": "chap2.html#working-with-images",
+    "href": "chap2.html#working-with-images",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.7 Working with images",
+    "text": "2.7 Working with images\n\nUpload an image\n\n\n\nInsert an image to the document"
+  },
+  {
+    "objectID": "chap2.html#mathematical-equations",
+    "href": "chap2.html#mathematical-equations",
+    "title": "2  Writing/ Collaborative Writing Platforms",
+    "section": "2.8 Mathematical Equations",
+    "text": "2.8 Mathematical Equations"
   }
 ]

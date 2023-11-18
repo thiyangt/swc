@@ -3,7 +3,7 @@
 
 ## Install Quarto
 
-1. Installation guide: https://quarto.org/docs/get-started/
+1. Installation guide: [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/)
 
 ## Jupyter notebook
 

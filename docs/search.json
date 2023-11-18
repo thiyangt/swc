@@ -115,8 +115,8 @@
     "objectID": "chap4.html#reading",
     "href": "chap4.html#reading",
     "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
-    "section": "4.6 Reading",
-    "text": "4.6 Reading\n\nhttps://quarto.org/docs/computations/execution-options.html"
+    "section": "4.7 Reading",
+    "text": "4.7 Reading\n\nhttps://quarto.org/docs/computations/execution-options.html"
   },
   {
     "objectID": "chap2.html#what-is-overleaf",
@@ -173,5 +173,12 @@
     "title": "2  Writing/ Collaborative Writing Platforms",
     "section": "2.8 Mathematical Equations",
     "text": "2.8 Mathematical Equations"
+  },
+  {
+    "objectID": "chap4.html#rendering",
+    "href": "chap4.html#rendering",
+    "title": "4  Reproducible reporting with Quarto and Jupyter Notebook",
+    "section": "4.6 Rendering",
+    "text": "4.6 Rendering\nMac/Linux\npython3 -m pip install jupyter jupyterlab\npython3 -m pip install matplotlib plotly\npython3 -m jupyter lab Report1.ipynb\nWindows\npy -m pip install jupyter jupyterlab\npy -m pip install matplotlib plotly\npy -m jupyter lab Report1.ipynb\nMore information: https://quarto.org/docs/get-started/hello/jupyter.html"
   }
 ]

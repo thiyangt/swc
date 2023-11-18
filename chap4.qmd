@@ -43,6 +43,26 @@ When you run `quarto preview Report1.ipynb`, you will get
 
 ![](images/20.png)
 
+## Rendering
+
+**Mac/Linux**
+
+python3 -m pip install jupyter jupyterlab
+
+python3 -m pip install matplotlib plotly
+
+python3 -m jupyter lab Report1.ipynb
+
+**Windows**
+
+py -m pip install jupyter jupyterlab
+
+py -m pip install matplotlib plotly
+
+py -m jupyter lab Report1.ipynb
+
+More information: [https://quarto.org/docs/get-started/hello/jupyter.html](https://quarto.org/docs/get-started/hello/jupyter.html)
+
 ## Reading
 
 1. [https://quarto.org/docs/computations/execution-options.html](https://quarto.org/docs/computations/execution-options.html)

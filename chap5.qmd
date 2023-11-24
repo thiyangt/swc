@@ -1,0 +1,37 @@
+# From Data Points to Stories with Data Visualization
+
+## What is data visualization?
+
+> "The visual representation and presentation of data to facilitate understanding." [@kirk2016data] 
+
+The visual representation and presentation of data serve as a powerful tool in transforming data into useful insights.
+
+## Things to consider when creating data visualizations
+
+**Step 1: Panning**
+
+  1. Know your audience
+  
+  - Consider their background knowledge
+    
+  - Their interests
+    
+  - Their level of undersatnding
+
+  2. Output type: paper-based, digital
+
+  3. Time scale: 
+  
+**Step 2: Creating a plot**
+
+  1. Keep it simple
+
+  2. Scale of measurements
+  
+  3. Colour scale
+
+## How to interpret a graph?
+
+  1. Reading a graph
+  
+  

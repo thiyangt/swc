@@ -8,12 +8,19 @@ book:
   date: ""
   chapters:
     - index.qmd
-    - intro.qmd
-    - chap2.qmd
-    - chap3.qmd
-    - chap4.qmd
-    - summary.qmd
-    - references.qmd
+    - part: part1.qmd
+      chapters:
+      - intro.qmd
+      - chap2.qmd
+      - chap3.qmd
+      - chap4.qmd
+    - part: part2.qmd
+      chapters:
+      - chap5.qmd
+      - chap6.qmd
+      - chap7.qmd
+      - summary.qmd
+      - references.qmd
 
 bibliography: references.bib
 

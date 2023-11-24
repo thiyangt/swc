@@ -1,0 +1,4 @@
+# Part 2: The Art of Storytelling with Statistics {#sec-part2 .unnumbered}
+
+
+Storytelling with data is a powerful way to convey complex information in an accessible manner. By storytelling, we transform raw numbers into a complete and meaningful narrative. A well-crafted story is not only informative but also engaging and memorable. In this section we will explore some important points you need to consider when writing a story with data 

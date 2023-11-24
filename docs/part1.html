@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Scientific Writing and Communication - 4&nbsp; Reproducible reporting with Quarto and Jupyter Notebook</title>
+<title>Scientific Writing and Communication - Part 1: Tools for Scientific Writing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./part2.html" rel="next">
-<link href="./chap3.html" rel="prev">
+<link href="./intro.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Reproducible reporting with Quarto and Jupyter Notebook</span></h1>
+      <h1 class="quarto-secondary-nav-title">Part 1: Tools for Scientific Writing</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part1.html" class="sidebar-item-text sidebar-link">Part 1: Tools for Scientific Writing</a>
+            <a href="./part1.html" class="sidebar-item-text sidebar-link active">Part 1: Tools for Scientific Writing</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -123,14 +123,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chap4.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Reproducible reporting with Quarto and Jupyter Notebook</span></a>
+  <a href="./chap4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Reproducible reporting with Quarto and Jupyter Notebook</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part2.html" class="sidebar-item-text sidebar-link">Part 2: The Art of Storytelling with Statistics</a>
+            <a href="./part2.html" class="sidebar-item-text sidebar-link">Part 2: From Data Points to Stories-The Art of Storytelling with Statistics</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chap5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">From Data Points to Stories with Data Visualization</span></a>
+  <a href="./chap5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">chap5.html</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -168,26 +168,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#install-quarto" id="toc-install-quarto" class="nav-link active" data-scroll-target="#install-quarto"><span class="toc-section-number">4.1</span>  Install Quarto</a></li>
-  <li><a href="#jupyter-notebook" id="toc-jupyter-notebook" class="nav-link" data-scroll-target="#jupyter-notebook"><span class="toc-section-number">4.2</span>  Jupyter notebook</a></li>
-  <li><a href="#obtain-quarto-preview" id="toc-obtain-quarto-preview" class="nav-link" data-scroll-target="#obtain-quarto-preview"><span class="toc-section-number">4.3</span>  Obtain quarto preview</a></li>
-  <li><a href="#code-level-options" id="toc-code-level-options" class="nav-link" data-scroll-target="#code-level-options"><span class="toc-section-number">4.4</span>  Code-level options</a></li>
-  <li><a href="#document-level-options" id="toc-document-level-options" class="nav-link" data-scroll-target="#document-level-options"><span class="toc-section-number">4.5</span>  Document-level options</a></li>
-  <li><a href="#rendering" id="toc-rendering" class="nav-link" data-scroll-target="#rendering"><span class="toc-section-number">4.6</span>  Rendering</a></li>
-  <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading"><span class="toc-section-number">4.7</span>  Reading</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Reproducible reporting with Quarto and Jupyter Notebook</span></h1>
+<h1 class="title"><span id="sec-part1" class="quarto-section-identifier d-none d-lg-block">Part 1: Tools for Scientific Writing</span></h1>
 </div>
 
 
@@ -202,58 +190,9 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="install-quarto" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="install-quarto"><span class="header-section-number">4.1</span> Install Quarto</h2>
-<ol type="1">
-<li>Installation guide: <a href="https://quarto.org/docs/get-started/">https://quarto.org/docs/get-started/</a></li>
-</ol>
-</section>
-<section id="jupyter-notebook" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="jupyter-notebook"><span class="header-section-number">4.2</span> Jupyter notebook</h2>
-<p><img src="images/14.png" class="img-fluid"></p>
-<p><img src="images/15.png" class="img-fluid"></p>
-</section>
-<section id="obtain-quarto-preview" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="obtain-quarto-preview"><span class="header-section-number">4.3</span> Obtain quarto preview</h2>
-<p>On terminal type</p>
-<pre><code>quarto preview Report1.ipynb</code></pre>
-<p>Then, you will get the following output file</p>
-<p><img src="images/16.png" class="img-fluid"></p>
-<p>Click on code to view the codes</p>
-<p><img src="images/17.png" class="img-fluid"></p>
-</section>
-<section id="code-level-options" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="code-level-options"><span class="header-section-number">4.4</span> Code-level options</h2>
-<p><img src="images/18.png" class="img-fluid"></p>
-<p>When you run <code>quarto preview Report1.ipynb</code> on the terminal you will get following output.</p>
-<p><img src="images/19.png" class="img-fluid"></p>
-</section>
-<section id="document-level-options" class="level2" data-number="4.5">
-<h2 data-number="4.5" class="anchored" data-anchor-id="document-level-options"><span class="header-section-number">4.5</span> Document-level options</h2>
-<p><img src="images/21.png" class="img-fluid"></p>
-<p>When you run <code>quarto preview Report1.ipynb</code>, you will get</p>
-<p><img src="images/20.png" class="img-fluid"></p>
-</section>
-<section id="rendering" class="level2" data-number="4.6">
-<h2 data-number="4.6" class="anchored" data-anchor-id="rendering"><span class="header-section-number">4.6</span> Rendering</h2>
-<p><strong>Mac/Linux</strong></p>
-<p>python3 -m pip install jupyter jupyterlab</p>
-<p>python3 -m pip install matplotlib plotly</p>
-<p>python3 -m jupyter lab Report1.ipynb</p>
-<p><strong>Windows</strong></p>
-<p>py -m pip install jupyter jupyterlab</p>
-<p>py -m pip install matplotlib plotly</p>
-<p>py -m jupyter lab Report1.ipynb</p>
-<p>More information: <a href="https://quarto.org/docs/get-started/hello/jupyter.html">https://quarto.org/docs/get-started/hello/jupyter.html</a></p>
-</section>
-<section id="reading" class="level2" data-number="4.7">
-<h2 data-number="4.7" class="anchored" data-anchor-id="reading"><span class="header-section-number">4.7</span> Reading</h2>
-<ol type="1">
-<li><a href="https://quarto.org/docs/computations/execution-options.html">https://quarto.org/docs/computations/execution-options.html</a></li>
-</ol>
+<p>The advancement of science, exchange of knowledge, and collaboration all depend on effective scientific communication. This section introduces an array of open-source tools that are useful for researchers in communicating their scientific work.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -391,13 +330,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./chap3.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data Visualisation with Grammar of Graphics</span></span>
+      <a href="./index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./part2.html" class="pagination-link">
-        <span class="nav-page-text">Part 2: The Art of Storytelling with Statistics</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./intro.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

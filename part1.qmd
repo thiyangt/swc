@@ -1,0 +1,3 @@
+# Part 1: Tools for Scientific Writing {#sec-part1 .unnumbered}
+
+The advancement of science, exchange of knowledge, and collaboration all depend on effective scientific communication. This section introduces an array of open-source tools that are useful for researchers in communicating their scientific work.

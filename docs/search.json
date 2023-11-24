@@ -187,5 +187,54 @@
     "title": "1  Introduction",
     "section": "",
     "text": "This book introduces essential open-source tools for mastering the art of scientific writing.\n\nWriting/ Collaborative Writing Platforms\n\nOverleaf: An online LaTeX editor for collaborative writing and publishing.\n\nComputing\n\nR\nPython\n\nData visualization\n\nR: ggplot2\nPython: plotnine\n\nReproducible Research\n\nR and Python both: Quarto\nPython: Jupyter Notebooks\nR: RMarkdown, knitr\n\nPaper Management\n\nZotero\nMendeley\n\nOpen Access Journals/ Research papers\n\nDirectory of Open Access Journals (DOAJ): A community-curated online directory that indexes and provides access to high-quality, open access, peer-reviewed journals.\n\nResearch Collaboration and Networking\n\nResearchGate\nAcademia.edu\n\nVersion control\n\nGithub"
+  },
+  {
+    "objectID": "part1.html",
+    "href": "part1.html",
+    "title": "Part 1: Tools for Scientific Writing",
+    "section": "",
+    "text": "The advancement of science, exchange of knowledge, and collaboration all depend on effective scientific communication. This section introduces an array of open-source tools that are useful for researchers in communicating their scientific work."
+  },
+  {
+    "objectID": "part2.html",
+    "href": "part2.html",
+    "title": "Part 2: The Art of Storytelling with Statistics",
+    "section": "",
+    "text": "Storytelling with data is a powerful way to convey complex information in an accessible manner. By storytelling, we transform raw numbers into a complete and meaningful narrative. A well-crafted story is not only informative but also engaging and memorable. In this section we will explore some important points you need to consider when writing a story with data"
+  },
+  {
+    "objectID": "chap5.html",
+    "href": "chap5.html",
+    "title": "5  What is data visualization?",
+    "section": "",
+    "text": "The visual representation and presentation of data to facilitate understanding."
+  },
+  {
+    "objectID": "chap5.html#what-is-data-visualization",
+    "href": "chap5.html#what-is-data-visualization",
+    "title": "5  From Data Points to Stories with Data Visualization",
+    "section": "5.1 What is data visualization?",
+    "text": "5.1 What is data visualization?\n\n“The visual representation and presentation of data to facilitate understanding.” (Kirk et al. 2016)\n\nThe visual representation and presentation of data serve as a powerful tool in transforming data into useful insights."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Kirk, Andy, Simon Timms, Ǯdrew Rininsland, and Swizec Teller. 2016.\nData Visualization: Representing Information on Modern Web.\nPackt Publishing Ltd."
+  },
+  {
+    "objectID": "chap5.html#things-to-consider-when-creating-data-visualizations",
+    "href": "chap5.html#things-to-consider-when-creating-data-visualizations",
+    "title": "5  From Data Points to Stories with Data Visualization",
+    "section": "5.2 Things to consider when creating data visualizations",
+    "text": "5.2 Things to consider when creating data visualizations\nStep 1: Panning\n\nKnow your audience\n\n\nConsider their background knowledge\nTheir interests\nTheir level of undersatnding\n\n\nOutput type: paper-based, digital\nTime scale:\n\nStep 2: Creating a plot\n\nKeep it simple"
+  },
+  {
+    "objectID": "chap5.html#how-to-interpret-a-graph",
+    "href": "chap5.html#how-to-interpret-a-graph",
+    "title": "5  From Data Points to Stories with Data Visualization",
+    "section": "5.3 How to interpret a graph?",
+    "text": "5.3 How to interpret a graph?\nBefore interpreting a graph\n\n\n\n\nKirk, Andy, Simon Timms, Ǯdrew Rininsland, and Swizec Teller. 2016. Data Visualization: Representing Information on Modern Web. Packt Publishing Ltd."
   }
 ]
